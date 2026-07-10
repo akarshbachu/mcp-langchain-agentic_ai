@@ -1,0 +1,13 @@
+langgraph
+langchain
+langsmith
+ipykernel
+python-dotenv
+langchain-google-genai
+langchain_ollama
+langchain_community
+langchain-openai
+langchain-groq
+langchain_tavily # Tool for web search
+langchain-mcp-adapters
+mcp
