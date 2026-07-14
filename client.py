@@ -23,7 +23,8 @@ async def main():
         }
     })
     tools = await client.get_tools()
-    model = ChatGroq(model="llama-3.1-8b-instant")
+    model = ChatGroq(model="qwen/qwen3-32b")
+    # print(tools)
     agent = create_react_agent(model, tools)
     math_response = await agent.ainvoke(
         {
